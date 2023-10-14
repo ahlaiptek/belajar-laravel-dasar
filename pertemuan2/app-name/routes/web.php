@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $context = [
+        'title' => 'Context Data'
+    ];
+    // return 'Hello Ahla';
+    return view('index', $context);
+});
+
+Route::get('/welcome', function () {
     return view('welcome');
 });
