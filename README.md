@@ -1,2 +1,2 @@
 # belajar-laravel-dasar
-[Link Instalasi Laravel](https://www.youtube.com/watch?v=HqLszzF6Ie8)
+[Link Belajar Laravel (Web Programming Unpas)](https://www.youtube.com/watch?v=HqAMb6kqlLs&list=PLFIM0718LjIWiihbBIq-SWPU6b6x21Q_2)
