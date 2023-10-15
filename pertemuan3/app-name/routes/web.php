@@ -28,5 +28,8 @@ Route::get('/about', function () {
 });
 
 Route::get('/welcome', function () {
-    return view('welcome');
+    $context = [
+        'title_page' => 'Welcome'
+    ];
+    return view('welcome', $context);
 });
