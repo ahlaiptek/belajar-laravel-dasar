@@ -27,6 +27,21 @@ Route::get('/about', function () {
     return view('about', $context);
 });
 
+$posts = [];
+
+Route::get('/posts', function () {
+    $context = [
+        'title_page' => 'Posts'
+    ];
+    return view('posts', $context);
+});
+
+Route::get('/post/<slug>', function ($slug) {
+    $context = [
+        'title_page' => 'Post'
+    ];
+    return view('post', $context);
+});
 Route::get('/welcome', function () {
     $context = [
         'title_page' => 'Welcome'

@@ -12,6 +12,9 @@
 				<li class="nav-item">
 					<a class="nav-link {{ ($title_page == 'About') ? 'active' : '' }}" href="/about">About</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link {{ ($title_page == 'Posts') ? 'active' : '' }}" href="/posts">Posts</a>
+				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						Dropdown
